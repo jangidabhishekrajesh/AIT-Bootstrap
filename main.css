@@ -1,0 +1,479 @@
+/* nav Link */
+a.nav-link{
+    color: white;
+}
+a.nav-link:hover{
+    color: orangered;
+}
+#nav-link{
+    color: grey;
+}
+#nav-link:hover{
+    background-color: orangered;
+    border-radius: 2em;
+    color: white;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgb(32 33 36 / 28%);
+    z-index: 1;
+}
+.modal-text{
+    color: white;
+    background-color: orangered;
+}
+.modal{
+    width: 25%;
+    margin-top: 11rem;
+}
+.anchor-link:hover{
+    color: white;
+}
+.arrow{
+    color:grey;
+    float: right;
+    margin-right: 1em;
+}
+.carousel-indicators{
+    margin-bottom: 4em;
+} 
+.btn-txt{
+    margin-top:-4em;
+    margin-left: 5em;
+}
+#btn-explore{
+    margin-left:9em;
+}
+#btn-explore:hover{
+    background-color:#1badd9;
+    border: #1badd9;
+}
+#card-top{
+    margin-top: -3rem;
+}
+#ui-bg{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#ang-bg{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#ui-bg:hover{
+    background-image: linear-gradient(to right, #2c3e50, #2980b9);
+    color: white;
+    transform: scale(1.1);
+    transition: all .5s ease 0s;
+    border: none;
+}
+#ang-bg:hover{
+    background-image: linear-gradient(to right, #f7b733, #ff4700);
+    color: white;
+    transform: scale(1.1);
+    transition: all .5s ease 0s;
+    border: none;
+}
+#bg-pink{
+    background-image: linear-gradient(to left,#e83e8c,#fd7e14);
+    color: white;
+}
+
+/* card start */
+#icon-title{
+    display: flex;
+    background-image: linear-gradient(to left,#e83e8c,#fd7e14);
+    padding: 1rem;
+}
+#icon-title-1{
+    display: flex;
+    background-image: linear-gradient(to left, orange,#fd7e14);
+    padding: 1rem;
+}
+#icon-title-2{
+    display: flex;
+    background-image: linear-gradient(to right,#89fffd,#ef32d9);
+    padding: 1rem;
+}
+#icon-title-3{
+    display: flex;
+    background-image: linear-gradient(to left,#92FE9D,#00C9FF);
+    padding: 1rem;
+}
+#icon-title-4{
+    display: flex;
+    background-image: linear-gradient(to left,#1CB5E0,#000046);
+    padding: 1rem;
+}
+#icon-title-5{
+    display: flex;
+    background-image: linear-gradient(to left,#f2fcfe,#1c92d2);
+    padding: 1rem;
+}
+#icon-title-6{
+    display: flex;
+    background-image: linear-gradient(to right,#fc6767,#ec008c);
+    padding: 1rem;
+}
+#icon-title-7{
+    display: flex;
+    background-image: linear-gradient(to left,#feb47b,#ff7e5f);
+    padding: 1rem;
+}
+.fa-star{
+    color: gold;
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    transition: all .9s ease 0s;
+    overflow-y: auto;
+    height: 22em;
+    margin-top: -22rem;
+    padding: 1em;
+}
+.angular-container:hover .overlay {
+  opacity: 1;
+}
+.content-front{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* card end */
+
+/* RECENT ADDITION CARD START */
+#icon-title-recent-1{
+    display: flex;
+    background-image: linear-gradient(to right,#92FE9D,#00C9FF);
+    padding: 1rem;
+}
+#icon-title-recent-2{
+    display: flex;
+    background-image: linear-gradient(to left,#1CB5E0,#000046);
+    padding: 1rem;
+}
+#icon-title-recent-3{
+    display: flex;
+    background-image: linear-gradient(to left,#f2fcfe,#1c92d2);
+    padding: 1rem;
+}
+#icon-title-recent-4{
+    display: flex;
+    background-image: linear-gradient(to left,#feb47b,#ff7e5f);
+    padding: 1rem;
+}
+.overlay-1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    transition: all .9s ease 0s;
+    overflow-y: auto;
+    height: 19em;
+    margin-top: -19rem;
+    padding: 1em;
+}
+.angular-container:hover .overlay-1 {
+  opacity: 1;
+}
+/* RECENT ADDITION ENDS HERE */
+
+/* discover top categories start here */
+.discover-content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.discover-content:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition: all .5s ease 0s;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* discover category end here */
+
+/* review start here */
+#icon-title-review-1{
+    display: flex;
+    background-image: linear-gradient(to left,#feb47b,#ff7e5f);
+    padding: 1rem;
+}
+#icon-title-review-2{
+    display: flex;
+    background-image: linear-gradient(to left,#1CB5E0,#000046);
+    padding: 1rem;
+}
+#icon-title-review-3{
+    display: flex;
+    background-image: linear-gradient(to right,#92FE9D,#00C9FF);
+    padding: 1rem;
+}
+a.view-next:hover{
+    text-decoration: none;
+    color: orangered;
+}
+/* reviews end here */
+
+/* contact us start here */
+#bg-contact-us{
+    background-image: linear-gradient(to left,#0052D4,#65C7F7,#9CECFB);
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.know-us-font{
+    color: white;
+}
+#btn-light:hover{
+    background-color: orangered;
+    border: orangered;
+    color: white;
+}
+button#btn-light {
+    margin-left:45%;
+}
+/* contact us end here */
+
+/* edge start here */
+.svg-inline--fa2 {
+    color: #3494e6;
+    background: -webkit-linear-gradient(#3494e6, #ec6ead) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+.p-xs-5{
+    padding: 2em;
+}
+.p-xs-5:hover{
+    background-color: white;
+    transition: all .5s ease 0s;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* edge end here */
+
+/* why we are on top start here*/
+.box-heading{
+    margin-top: 2rem;
+    background-image: url(network.jpg);
+    padding: 2em;
+}
+.box-headline{
+    color: #0c5397;
+}
+.head-big-box{
+    font-size: 50px;
+}
+.we-top-content{
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.we-top-content:hover{
+    background-image: linear-gradient(to right, #f7b733, #ff4700);
+    color: white;
+    transform: scale(1.1);
+    transition: all .5s ease 0s;
+    border: none;
+}
+.we-top-content-1{
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.we-top-content-1:hover{
+    background-image: linear-gradient(to right, #2c3e50, #2980b9);
+    color: white;
+    transform: scale(1.1);
+    transition: all .5s ease 0s;
+    border: none;
+}
+.head-big-box:hover{
+    color: white;
+}
+/* wht we are on top end here */
+
+/* our trainer from start */
+.trainer-company{
+    background-image: url(back-4.jpg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 9rem;
+    border-radius: 5px;
+}
+.trainer-company:hover{
+    transform: scale(1.1);
+    transition: all .5s ease 0s;
+    border: none;
+    border-radius: 5px;
+}
+/* our trainers from end */
+
+/* latest job opening start here */
+/* for 1st */
+.accordion .card-header.collapsed:after {
+    content: "\f103" !important;
+}
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f102" !important;
+    float: right;
+    color: #fff;
+}
+.accordion .card-header:after {
+    font-size: 20px;
+}
+
+.accordion .card-header {
+    background-image: url(back-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.accordion .card-body {
+    background-image: url(back-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+/* 1st end */
+/* latest job opening end here */
+
+/* big banner AIT start */
+.ait-business-banner{
+    background-image: url(edureka-business.png);
+    background-size: cover;
+    margin-top: 5%;
+}
+.padding-ait-banner{
+    padding: 1%;
+}
+/* AIT End  */
+
+/* our client start here */
+.our-client{
+    height: 90%;
+    padding: 2em;
+}
+/* our client end here */
+
+/*  information About us start here  */
+.know-us-better{
+    background-image: url(know-us2.jpg);
+    background-size: cover;
+    color: white;
+    padding: 5%;
+}
+/* email part */
+.email-number{
+    background: #a0e0ff54;
+    padding: 3%;
+    margin-top: 4rem;
+}
+/* emailmpart end */
+/*  information About us end here  */
+
+/* footer start here */
+.footer{
+    background-color: black;
+}
+ul.footer-menu,.footer-hover:hover{
+    color:orangered;
+    text-decoration: none;
+}
+a.footer-hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-icon{
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.icon {
+    position:relative;
+    text-align:center;
+    width:0px;
+    height:0px;
+    padding:20px;
+    border-top-right-radius: 	20px;
+    border-top-left-radius: 	20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 	20px; 
+    color:#ffffff;
+}
+.icon i {
+    font-size:20px;
+    position:absolute;
+    left:9px;
+    top:10px;
+}
+.icon.social {
+    float:left;
+    margin:0px 5px 0px 0px;
+    cursor:pointer;
+    background:#ffffff ;
+    color:#262626;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s; 	
+}
+.icon:hover{
+    -webkit-transform: rotateZ(720deg);
+    -moz-transform: rotateZ(720deg);
+    transform: rotateZ(720deg);
+}
+.icon.social:hover {
+    color:#ffffff;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+    -moz-filter: drop-shadow(0 1px 10px rgba(0,0,0,.8));
+    -ms-filter: drop-shadow(0 1px 10px rgba(0,0,0,.8));
+    -o-filter: drop-shadow(0 1px 10px rgba(0,0,0,.8));
+    filter: drop-shadow(0 1px 10px rgba(0,0,0,.8));	 	
+}
+.icon.social.fb i {
+    left:10px;
+    top:10px;
+}
+.icon.social.fb:hover{
+    background-color: #3b5998;
+}
+.icon.social.in i {
+    left:11px;
+}
+.icon.social.in:hover{
+    background-color: #0077B5;
+}
+.icon.social.tw i{
+    left:11px;
+}
+.icon.social.tw:hover{
+    background-color: #55acee;
+}
+.icon.social.pi i {
+    left:11px;
+}
+.icon.social.pi:hover{
+    background-color: #bd081c;
+}
+.icon.social.yt i {
+    left:10px;
+}
+.icon.social.yt:hover{
+    background-color: #cd201f;
+}
+/* footer end here */
+
+/* 2nd-footer start */
+.footer-sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0px;
+}
+/* 2nd-footer end */
