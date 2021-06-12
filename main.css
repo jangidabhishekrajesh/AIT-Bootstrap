@@ -477,3 +477,127 @@ a.footer-hover{
     bottom: 0px;
 }
 /* 2nd-footer end */
+
+
+
+
+
+/* for Corporate-training CSS is start here */
+
+/* banner-1 start here */
+.banner-1{
+  background-image: url(banner-new.jpg);;
+  background-size: cover;
+  opacity: 0.7;
+  padding: 6%;
+}
+.job-heading{
+    color: white;
+}
+/* banner-1 end here */
+
+/* 2nd phase start here */
+.line-breaking-tool{
+    width: 15%;
+    background-color:limegreen;
+}
+.font-m-20{
+    font-size: 20px;
+}
+.font-sm-20{
+    font-size: 18px;
+}
+/* 2nd phase end here */
+
+/* banner-2 start here */
+.banner-2-bg{
+    background-image: linear-gradient(to right,#84c5e7,#e5f4f9);
+}
+.pad-30 {
+    padding: 30px;
+}
+.mbottom-0{
+    font-size: 18px;
+    font-weight: bolder;
+}
+/* banner-2 end here */
+
+/* scroll start */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20%;
+    right: 1%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #myBtn:hover {
+    background-color:dodgerblue;
+  }
+ /* scrollbar start*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: orangered; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+  /* scroll bar end */
+/* scroll end */
+
+/* contact button start */
+.turned-button {
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    top: 50%;
+    position: fixed;
+    right: -3.8%;
+    z-index: 1030;
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.turned-button:hover{
+    background-color: dodgerblue;
+}
+/* contact button end */
+
+/* Corporate-training CSS is end here */
+
+
+
+
+
+/* placement page start here  */
+.font-md-10{
+    color: orangered;
+}
+.content-paragraph{
+    font-size: 18px;
+}
+ul li{
+    font-size: 18px;
+}
+.placement-image{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2em;
+}
+/* placement page end here */

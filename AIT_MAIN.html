@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css"
         integrity="sha512-AyOHI/tIMgoG+32apAs3OdqFowPSDqiz5vLcD2wdhBJ4J/xF1PI6UITcyhS5HCmsiioapRaONqYBvimxzFfnoA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://www.achieversit.com/assets/images/favicon.jpg">    
 </head>
 
 <body>
@@ -34,10 +35,10 @@
                 </a>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Corporate Training</a>
+                        <a class="nav-link" href="corporate_training.html">Corporate Training</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Placement Page</a>
+                        <a class="nav-link" href="placement_page.html">Placement Page</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Reviews</a>
@@ -2398,24 +2399,23 @@
                             </h3>
                             <br><br>
                             <i class="fas fa-map-marked-alt fa-2x text-white"></i><span
-                                class="address-phone-gmail text-white">#272, 6<sup>th</sup> Main,Next to Preksha
+                                class="address-phone-gmail text-white">  #272, 6<sup>th</sup> Main, Next to Preksha
                                 Montessori,1<sup>st</sup> Floor, BTM 2nd Stage, Bangalore, India - 560076</span>
                             <br><br>
                             <i class="fas fa-phone-volume fa-2x text-white"></i><span
-                                class="address-phone-gmail text-white">India : +91 8431-040-459</span>
+                                class="address-phone-gmail text-white">  India : +91 8431-040-459</span>
                             <br><br>
                             <i class="fas fa-envelope-open-text fa-2x text-white"></i><span
-                                class="address-phone-gmail text-white">info@achieversit.com</span>
+                                class="address-phone-gmail text-white">  info@achieversit.com</span>
                         </div>
                     </div>
                 </div>
-                <hr>
-                <div class="social-icon p-4">
-                    <div class='icon social fb'><i class='fab fa-facebook fa-2x'></i></div>
-                    <div class='icon social in'><i class='fab fa-linkedin fa-2x'></i></div>
-                    <div class='icon social tw'><i class="fab fa-twitter-square fa-2x"></i></div>
-                    <div class='icon social pi'><i class='fab fa-pinterest fa-2x'></i></div>
-                    <div class='icon social yt'><i class='fab fa-youtube fa-2x'></i></div>
+                <div class="social-icon p-2">
+                    <a href="http://www.facebook.com/"><div class='icon social fb'><i class='fab fa-facebook fa-2x'></i></div></a>
+                    <a href="http://www.linkedin.com/"><div class='icon social in'><i class='fab fa-linkedin fa-2x'></i></div></a>
+                    <a href="http://www.twitter.com/"><div class='icon social tw'><i class="fab fa-twitter-square fa-2x"></i></div></a>
+                    <a href="http://www.pinterest.com/"><div class='icon social pi'><i class='fab fa-pinterest fa-2x'></i></div></a>
+                    <a href="http://www.youtube.com/"><div class='icon social yt'><i class='fab fa-youtube fa-2x'></i></div></a>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -2467,7 +2467,37 @@
             </div>
         </div>
         <!-- footer-2 end -->
-    </div>
-</body>
 
+         <!-- contact-us button start here -->
+         <a href=""><button type="button" class="btn btn-lg turned-button" onclick="contactus('right_sticky_contact_us','Contact Us')">CONTACT US</button></a>
+         <!-- contact us button end here -->
+
+        <!-- scroll button start here -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
+        <!-- scroll button end here -->
+
+    </div>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
 </html>
