@@ -474,7 +474,8 @@ a.footer-hover{
 .footer-sticky{
     position: sticky;
     position: -webkit-sticky;
-    bottom: 0px;
+    bottom: 0;
+    background-color: black;
 }
 /* 2nd-footer end */
 
@@ -601,3 +602,63 @@ ul li{
     padding: 2em;
 }
 /* placement page end here */
+
+
+
+
+/* reviews start here */
+.b-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.posted{
+    float: right;
+}
+.bg-icon{
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-image: linear-gradient(to left,#e83e8c,#fd7e14);
+}
+.bg-text{
+    font-weight: bold;
+    padding: 1em;
+}
+/* reviews end here */
+
+
+
+
+/* blog start here */
+.blog-bg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1em;
+}
+img.img-blog{
+    min-height: 120px;
+}
+.author-blog{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-heading-blog{
+    border:1px solid grey;
+    padding: 5%;
+    border-radius: 5px;
+}
+.box-heading-blog:hover{
+    background-color: orangered;
+    color: white;
+    border: orangered;
+    border-radius: 5px;
+}
+.btn-submit{
+    background-color: orangered;
+    color: white;
+}
+.btn-submit:hover{
+    background-color:dodgerblue;
+    color: white;
+}
+.text-UI{
+    color: orange;
+}
+/* blog end here */

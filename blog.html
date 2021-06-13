@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Placement Page</title>
+    <title>Blog</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
     <link rel="stylesheet" href="main.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -28,7 +32,6 @@
 <body>
     <div class="container-fluid">
         <!-- 1st navbar -->
-        <div class="col-12">
         <div class="nav-header">
             <nav class="navbar navbar-light bg-dark">
                 <a class="navbar-brand" href="AIT_MAIN.html">
@@ -49,7 +52,6 @@
                     </li>
                 </ul>
             </nav>
-        </div>
         </div>
         <!-- 1st navbar end here -->
 
@@ -124,100 +126,166 @@
         </div>
         <!-- 2nd navbar end here  -->
 
-        <!-- banner-1 start here -->
+        <!-- blog start here -->
         <div class="banner-1">
             <div class="banner-control">
-                <h1 class="job-heading">PLACEMENTS</h1>
+                <h1 class="job-heading text-center">BLOGS</h1>
+                <br>
                 <a href="AIT_MAIN.html">
-                    <h5 class="job-heading">Home</h5>
                 </a>
             </div>
         </div>
-        <!-- Banner-1 End Here -->
+        <!-- blog ened here -->
 
-        <!-- content start here -->
+        <!-- breadcrumb start here -->
         <div class="container">
-            <div class="content-main">
-                <h1 class="font-md-10 mt-4 mb-3">Job Support at AchieversIT</h1>
-                <p class="content-paragraph">Our IT On-Job Support mission is to up skill the beginners in IT with the
-                    ability to solve their Real-time complex project requirements. We at AchieversIT, assist and render
-                    job support services in more than 450+ IT Courses.
-                    <br><br>
-                    If you are one of those, struggling to survive in the job due to lack of technical abilities or
-                    those got a new project and stressed about the work assigned then write to us. We put forward our
-                    best skilled IT consultant, to guide you in achieving the best result in your work and furnish your
-                    deliverables.
-                </p>
-                <br>
-                <h2 class="font-md-10">What do we promise?</h2>
-                <p class="content-paragraph">We are here to better solve your work-related complications.</p>
-                <ul>
-                    <li>Our services are reliable and affordable that meets client needs.</li>
-                    <li>Our consultants are real-time professionals with abundant experience in the IT industry on
-                        various skills. They provide complete exposure of your job-related issues.</li>
-                    <li>We impart knowledge and skills in a practical way and make resource understand the technology
-                        workflow.</li>
-                    <li>Our real-time expert’s guidelines help you handle critical situations at the job.</li>
-                    <li>Our consultants guide you to solve the particular task within a given amount of time.</li>
-                    <li>We offer students effective tools to achieve success.</li>
-                </ul>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-white">
+                    <li class="breadcrumb-item"><a href="AIT_MAIN.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                </ol>
+            </nav>
+            <!-- breadcrumb end here -->
+
+            <!-- blogs start here -->
+
+            <h2 class="blog-heading mt-5 mb-5">UI DEVELOPMENT</h2>
+            <div class="blog-post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row blog-bg">
+                            <div class="col-md-4">
+                                <div class="blog-post">
+                                    <img src="rest-and-spread-operator.png" class="img-blog" width="100%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="blog-post">
+                                    <a href="" style="text-decoration: none;">
+                                        <h4 class="text-primary">Spread And Rest Operators In Javascript</h4>
+                                    </a>
+                                    <span class="text-primary">By Admin</span> |
+                                    <span class="text-primary">May 06, 2020</span>
+                                    <br>
+                                    <a href="" class="text-UI" style="float: right; text-decoration: none;">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row blog-bg">
+                            <div class="col-md-4">
+                                <div class="blog-post">
+                                    <img src="closuresmain.png" class="img-blog" width="100%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="blog-post">
+                                    <a href="" style="text-decoration: none;">
+                                        <h4 class="text-primary">Closures In JavaScript</h4>
+                                    </a>
+                                    <span class="text-primary">By Admin</span> |
+                                    <span class="text-primary">May 08, 2020</span>
+                                    <br>
+                                    <br>
+                                    <a href="" class="text-UI" style="float: right; text-decoration: none;">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- react js start here -->
+                <h2 class="blog-heading mt-5 mb-5">REACT JS DEVELOPMENT</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row blog-bg">
+                            <div class="col-md-4">
+                                <div class="blog-post">
+                                    <img src="HOC1.jpg" class="img-blog" width="100%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="blog-post">
+                                    <a href="" style="text-decoration: none;">
+                                        <h4 class="text-primary">Higher Ordered Components In React</h4>
+                                    </a>
+                                    <span class="text-primary">By Admin</span> |
+                                    <span class="text-primary">May 06, 2020</span>
+                                    <br>
+                                    <a href="" class="text-UI" style="float: right; text-decoration: none;">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row blog-bg">
+                            <div class="col-md-4">
+                                <div class="blog-post">
+                                    <img src="component3.png" class="img-blog" width="100%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="blog-post">
+                                    <a href="" style="text-decoration: none;">
+                                        <h4 class="text-primary">Stateless Components & Stateful...</h4>
+                                    </a>
+                                    <span class="text-primary">By Admin</span> |
+                                    <span class="text-primary">May 08, 2020</span>
+                                    <br>
+                                    <a href="" class="text-UI" style="float: right; text-decoration: none;">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="heading-borad">
-                <h1 class="font-lg-50 text-center mt-5 mb-4">New Placement Board</h1>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="placement-image p-4">
-                        <img src="suchitha.jpg" width="100%" alt="">
+            <!-- blogs end here -->
+
+            <!-- Become an author start here -->
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="author-blog text-center p-5">
+                        <div class="heading-blog">
+                            <h2 class="text-primary text-center">Become An Author</h2>
+                            <hr class="row-line" style="background-color:dodgerblue; border: 1px solid dodgerblue; width: 90%;">
+                            <div class="form-group text-center">
+                                <label for="name"></label>
+                                <input type="text" class="form-control" placeholder="Your Name Here*" id="text">
+                              </div>
+                              <div class="form-group text-center">
+                                <label for="email"></label>
+                                <input type="email" class="form-control" placeholder="Email Address*" id="email">
+                              </div>
+                              <div class="form-group text-center">
+                                <label for="phone"></label>
+                                <input type="phone" class="form-control" placeholder="Mobile No.*" id="email">
+                              </div>
+                              <button type="submit" class="btn btn-submit text-center">Submit</button>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="placement-image p-4">
-                        <img src="naveen.jpg" width="100%" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="placement-image p-4">
-                        <img src="gayatri.jpg" width="100%" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="placement-image p-4">
-                        <img src="abhishek.jpg" width="100%" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="placement-image p-4">
-                        <img src="MANIKANTH.jpg" width="100%" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="placement-image p-4">
-                        <img src="jithendra.jpg" width="100%" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="placement-image p-4">
-                        <img src="ramu.jpg" width="100%" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="placement-image p-4">
-                        <img src="yuvaraj.jpg" width="100%" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="placement-image p-4">
-                        <img src="kamesh.jpg" width="100%" alt="">
+                <div class="col-md-6">
+                    <div class="author-blog text-center p-5">
+                        <div class="heading-blog">
+                            <h2 class="text-primary text-center">Categories</h2>
+                            <hr class="row-line" style="background-color:dodgerblue; border: 1px solid dodgerblue; width: 90%;">
+                            <a href="" style="text-decoration: none; color: midnightblue;"><h3 class="box-heading-blog">
+                                UI Development
+                            </h3></a>
+                            <a href="" style="text-decoration: none; color: midnightblue;"><h3 class="box-heading-blog">
+                                React JS Development
+                            </h3></a>
+                            <a href="" style="text-decoration: none; color: midnightblue;"><h3 class="box-heading-blog">
+                                Angular Development
+                            </h3></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
-            <!-- content end here -->
+            <!-- become author ends here -->
         </div>
 
-        
-        <!-- footer start here -->
-        <!-- footer-1 start her -->
+        <!-- footer-1 start here -->
         <div class="footer">
             <div class="balance-footer mt-5">
                 <div class="row">
@@ -316,20 +384,20 @@
                 </div>
             </div>
         </div>
-        <!-- footer-1 end here -->
+        <!-- footer 1 end here -->
 
-        <!-- footer-2 start  -->
+        <!-- footer 2 start here -->
         <div class="footer-sticky">
             <div class="row p-3">
                 <div class="col-md-4 col-sm-6">
-                    <div class="footer-icon text-center" style="color: greenyellow;">
+                    <div class="footer-icon text-center">
                         <a href="http://www.whatsapp.com/" style="color: greenyellow;"><i class="fab fa-whatsapp-square fa-3x"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-icon">
                         <a href="" style="text-decoration: none;"><i class="fas fa-phone-volume fa-3x" style="color: darkcyan;"></i>
-                            <span class="big-footer-font" style='color:white; font-size:24px'> Call Us On: +91 8431-040-459</span></a> 
+                        <span class="big-footer-font" style='color:white; font-size:24px'> Call Us On: +91 8431-040-459</span></a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -340,16 +408,14 @@
                 </div>
             </div>
         </div>
-        <!-- footer-2 end -->
-        <!-- footer end here -->
+       <!-- footer 2 end here  -->
+       <!-- contact-us button start here -->
+       <a href=""><button type="button" class="btn btn-lg turned-button" onclick="contactus('right_sticky_contact_us','Contact Us')">CONTACT US</button></a>
+       <!-- contact us button end here -->
 
-        <!-- contact-us button start here -->
-        <a href=""><button type="button" class="btn btn-lg turned-button" onclick="contactus('right_sticky_contact_us','Contact Us')">CONTACT US</button></a>
-        <!-- contact us button end here -->
-
-        <!-- scroll button start here -->
-        <button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
-        <!-- scroll button end here -->
+       <!-- scroll button start here -->
+       <button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
+       <!-- scroll button end here -->
     </div>
 
     <script>
@@ -372,10 +438,6 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-
-
-        <!-- footer end here -->
-    </div>
 </body>
 
 </html>
