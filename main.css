@@ -348,6 +348,11 @@ button#btn-light {
 .padding-ait-banner{
     padding: 1%;
 }
+#banner-button:hover{
+    background-color: orangered;
+    color: white;
+    border: orangered;
+}
 /* AIT End  */
 
 /* our client start here */

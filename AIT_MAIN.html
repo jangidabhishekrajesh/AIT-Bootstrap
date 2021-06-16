@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css"
         integrity="sha512-AyOHI/tIMgoG+32apAs3OdqFowPSDqiz5vLcD2wdhBJ4J/xF1PI6UITcyhS5HCmsiioapRaONqYBvimxzFfnoA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="https://www.achieversit.com/assets/images/favicon.jpg">    
+    <link rel="shortcut icon" href="https://www.achieversit.com/assets/images/favicon.jpg">
 </head>
 
 <body>
@@ -114,12 +114,12 @@
                                 <span class="text-item pl-4">Digital Marketing Course<a href="" class="arrow"><i
                                             class="fas fa-angle-right"></i></a></span>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">&times;</button>
                                 </div>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         <!-- 2nd navbar end here  -->
 
         <!-- carousal-start here -->
@@ -2077,7 +2077,51 @@
             <h5 class="font-xs-12 padding-ait-banner ml-2"><strong>Nurture talent with instructor-led courses on
                     trending
                     technologies</strong></h5>
-            <a href=""><button class="btn btn-light btn-lg ml-3" id="btn-light">BUSINESS CONTACT</button></a>
+
+            <!-- modal -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light btn-lg ml-4" data-toggle="modal" data-target="#exampleModalCenter" id="banner-button">
+                BUSINESS CONTACT
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-info" id="exampleModalLongTitle">Business Contact</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- body start -->
+                            <div class="form-group text-center">
+                                <label for="name"></label>
+                                <input type="text" class="form-control" placeholder="Your Name Here*" id="text">
+                              </div>
+                              <div class="form-group text-center">
+                                <label for="email"></label>
+                                <input type="email" class="form-control" placeholder="Email Address*" id="email">
+                              </div>
+                              <div class="form-group text-center">
+                                <label for="phone"></label>
+                                <input type="phone" class="form-control" placeholder="Mobile No.*" id="email">
+                              </div>
+                              <div class="form-group text-center">
+                                <label for="name"></label>
+                                <input type="text" class="form-control" placeholder="Message*" id="text">
+                              </div>
+                            <!-- body end -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" id="banner-button">Submit Form</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal end -->
         </div>
         <!-- big-background image end here -->
 
@@ -2349,100 +2393,110 @@
 
         <!-- footer-1 start her -->
         <div class="footer">
-                <div class="row">
-                    <div class="col-md-3 p-3">
-                        <div class="footer-main text-center text-secondary">
-                            <img src="ait.jpg" alt="logo">
-                            <br>
-                            <br>
-                            <br>
-                            <p>AchieversIT - provides a wide group of opportunities
-                                for freshers and Experienced candidate who can develop their skills and build their
-                                career
-                                opportunities across multiple Companies.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="our-company p-2 mt-4">
-                            <h3 class="heading-footer text-secondary">
-                                COMPANY
-                            </h3>
-                            <br><br>
-                            <ul class="padding-some p-4" style="list-style-type:circle; color: white;">
-                                <li class="footer-menu"><a class="footer-hover" href="#">Home</a></li>
-                                <li class="footer-menu"><a class="footer-hover" href="#">Placements</a></li>
-                                <li class="footer-menu"><a class="footer-hover" href="#">Corporate Training</a></li>
-                                <li class="footer-menu"><a class="footer-hover" href="#">CONTACT US</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="our-company p-2 mt-4">
-                            <h3 class="heading-footer text-secondary">
-                                TRENDING COURSES
-                            </h3>
-                            <br><br>
-                            <ul class="padding-some p-4" style="list-style-type:circle; color: white;">
-                                <li class="footer-menu"><a class="footer-hover" href="#">UI DEVELOPMENT</a></li>
-                                <li class="footer-menu"><a class="footer-hover" href="#">ANGULAR JS COURSE</a></li>
-                                <li class="footer-menu"><a class="footer-hover" href="#">REACT JS COURSE</a></li>
-                                <li class="footer-menu"><a class="footer-hover" href="#">DIGITAL MARKETING COURSE</a>
-                                </li>
-                                <li class="footer-menu"><a class="footer-hover" href="#">PYTHON COURSE</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="our-company p-2 mt-4">
-                            <h3 class="heading-footer text-secondary">
-                                CONTACT INFO
-                            </h3>
-                            <br>
-                            <i class="fas fa-map-marked-alt fa-2x text-white"></i><span
-                                class="address-phone-gmail text-white">  #272, 6<sup>th</sup> Main, Next to Preksha
-                                Montessori,1<sup>st</sup>&nbsp; Floor, BTM 2nd Stage, Bangalore, India - 560076</span>
-                            <br>
-                            <i class="fas fa-phone-volume fa-2x text-white"></i><span
-                                class="address-phone-gmail text-white">&nbsp;  India : +91 8431-040-459</span>
-                            <br>
-                            <i class="fas fa-envelope-open-text fa-2x text-white"></i><span
-                                class="address-phone-gmail text-white">&nbsp;  info@achieversit.com</span>
-                        </div>
+            <div class="row">
+                <div class="col-md-3 p-3">
+                    <div class="footer-main text-center text-secondary">
+                        <img src="ait.jpg" alt="logo">
+                        <br>
+                        <br>
+                        <br>
+                        <p>AchieversIT - provides a wide group of opportunities
+                            for freshers and Experienced candidate who can develop their skills and build their
+                            career
+                            opportunities across multiple Companies.</p>
                     </div>
                 </div>
-                <hr class="row-line" style="background-color: white; border: 1px solid white; width: 90%;">
-                <div class="icon-section">
-                    <div class="social-icon p-2">
-                        <a href="http://www.facebook.com/"><div class='icon social fb'><i class='fab fa-facebook fa-2x'></i></div></a>
-                        <a href="http://www.linkedin.com/"><div class='icon social in'><i class='fab fa-linkedin fa-2x'></i></div></a>
-                        <a href="http://www.twitter.com/"><div class='icon social tw'><i class="fab fa-twitter-square fa-2x"></i></div></a>
-                        <a href="http://www.pinterest.com/"><div class='icon social pi'><i class='fab fa-pinterest fa-2x'></i></div></a>
-                        <a href="http://www.youtube.com/"><div class='icon social yt'><i class='fab fa-youtube fa-2x'></i></div></a>
+                <div class="col-md-3">
+                    <div class="our-company p-2 mt-4">
+                        <h3 class="heading-footer text-secondary">
+                            COMPANY
+                        </h3>
+                        <br><br>
+                        <ul class="padding-some p-4" style="list-style-type:circle; color: white;">
+                            <li class="footer-menu"><a class="footer-hover" href="#">Home</a></li>
+                            <li class="footer-menu"><a class="footer-hover" href="#">Placements</a></li>
+                            <li class="footer-menu"><a class="footer-hover" href="#">Corporate Training</a></li>
+                            <li class="footer-menu"><a class="footer-hover" href="#">CONTACT US</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-md-6">
-                        <p class="copy text-center text-secondary">
-                            Copyright <i class="far fa-copyright"></i> 2020 AchieversIT. All Rights Reserved
-                        </p>
+                <div class="col-md-3">
+                    <div class="our-company p-2 mt-4">
+                        <h3 class="heading-footer text-secondary">
+                            TRENDING COURSES
+                        </h3>
+                        <br><br>
+                        <ul class="padding-some p-4" style="list-style-type:circle; color: white;">
+                            <li class="footer-menu"><a class="footer-hover" href="#">UI DEVELOPMENT</a></li>
+                            <li class="footer-menu"><a class="footer-hover" href="#">ANGULAR JS COURSE</a></li>
+                            <li class="footer-menu"><a class="footer-hover" href="#">REACT JS COURSE</a></li>
+                            <li class="footer-menu"><a class="footer-hover" href="#">DIGITAL MARKETING COURSE</a>
+                            </li>
+                            <li class="footer-menu"><a class="footer-hover" href="#">PYTHON COURSE</a></li>
+                        </ul>
                     </div>
-                    <div class="col-md-2">
-                        <p class="copy-1 text-white">
-                            Privacy Policy
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="copy-1 text-white">
-                            Terms Of Use
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="copy-1 text-white">
-                            Refund Policy
-                        </p>
+                </div>
+                <div class="col-md-3">
+                    <div class="our-company p-2 mt-4">
+                        <h3 class="heading-footer text-secondary">
+                            CONTACT INFO
+                        </h3>
+                        <br>
+                        <i class="fas fa-map-marked-alt fa-2x text-white"></i><span
+                            class="address-phone-gmail text-white"> #272, 6<sup>th</sup> Main, Next to Preksha
+                            Montessori,1<sup>st</sup>&nbsp; Floor, BTM 2nd Stage, Bangalore, India - 560076</span>
+                        <br>
+                        <i class="fas fa-phone-volume fa-2x text-white"></i><span
+                            class="address-phone-gmail text-white">&nbsp; India : +91 8431-040-459</span>
+                        <br>
+                        <i class="fas fa-envelope-open-text fa-2x text-white"></i><span
+                            class="address-phone-gmail text-white">&nbsp; info@achieversit.com</span>
                     </div>
                 </div>
             </div>
+            <hr class="row-line" style="background-color: white; border: 1px solid white; width: 90%;">
+            <div class="icon-section">
+                <div class="social-icon p-2">
+                    <a href="http://www.facebook.com/">
+                        <div class='icon social fb'><i class='fab fa-facebook fa-2x'></i></div>
+                    </a>
+                    <a href="http://www.linkedin.com/">
+                        <div class='icon social in'><i class='fab fa-linkedin fa-2x'></i></div>
+                    </a>
+                    <a href="http://www.twitter.com/">
+                        <div class='icon social tw'><i class="fab fa-twitter-square fa-2x"></i></div>
+                    </a>
+                    <a href="http://www.pinterest.com/">
+                        <div class='icon social pi'><i class='fab fa-pinterest fa-2x'></i></div>
+                    </a>
+                    <a href="http://www.youtube.com/">
+                        <div class='icon social yt'><i class='fab fa-youtube fa-2x'></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <p class="copy text-center text-secondary">
+                        Copyright <i class="far fa-copyright"></i> 2020 AchieversIT. All Rights Reserved
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <p class="copy-1 text-white">
+                        Privacy Policy
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <p class="copy-1 text-white">
+                        Terms Of Use
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <p class="copy-1 text-white">
+                        Refund Policy
+                    </p>
+                </div>
+            </div>
+        </div>
         <!-- footer-1 end here -->
 
         <!-- footer-2 start  -->
@@ -2450,28 +2504,72 @@
             <div class="row p-3">
                 <div class="col-md-4 col-sm-4">
                     <div class="footer-icon text-center">
-                        <a href="http://www.whatsapp.com/" style="color: greenyellow;"><i class="fab fa-whatsapp-square fa-3x"></i></a>
+                        <a href="http://www.whatsapp.com/" style="color: greenyellow;"><i
+                                class="fab fa-whatsapp-square fa-3x"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <div class="footer-icon">
-                        <a href="" style="text-decoration: none;"><i class="fas fa-phone-volume fa-3x" style="color: darkcyan;"></i>
-                            <span class="big-footer-font" style='color:white; font-size:24px'> Call Us On: +91 8431-040-459</span></a> 
+                        <a href="" style="text-decoration: none;"><i class="fas fa-phone-volume fa-3x"
+                                style="color: darkcyan;"></i>
+                            <span class="big-footer-font" style='color:white; font-size:24px'> Call Us On: +91
+                                8431-040-459</span></a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <div class="footer-icon">
                         <a href="" style="text-decoration: none;"><i class="far fa-envelope fa-3x text-danger"></i>
-                            <span class="big-footer-font" style='color:white; font-size:24px'>Request A Call Back</span></a>
+                            <span class="big-footer-font" style='color:white; font-size:24px'>Request A Call
+                                Back</span></a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- footer-2 end -->
 
-         <!-- contact-us button start here -->
-         <a href=""><button type="button" class="btn btn-lg turned-button" onclick="contactus('right_sticky_contact_us','Contact Us')">CONTACT US</button></a>
-         <!-- contact us button end here -->
+        <!-- contact-us button start here -->
+            <button type="button" class="btn btn-lg turned-button" data-toggle="modal" data-target="#exampleModalCenter1" id="banner-button" onclick="contactus('right_sticky_contact_us','Contact Us')">
+                CONTACT US
+            </button>
+                 <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-info" id="exampleModalLongTitle1">Contact Us</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <!-- body start -->
+                        <div class="form-group text-center">
+                            <label for="name"></label>
+                            <input type="text" class="form-control" placeholder="Your Name Here*" id="text">
+                          </div>
+                          <div class="form-group text-center">
+                            <label for="email"></label>
+                            <input type="email" class="form-control" placeholder="Email Address*" id="email">
+                          </div>
+                          <div class="form-group text-center">
+                            <label for="phone"></label>
+                            <input type="phone" class="form-control" placeholder="Mobile No.*" id="email">
+                          </div>
+                          <div class="form-group text-center">
+                            <label for="name"></label>
+                            <input type="text" class="form-control" placeholder="Message*" id="text">
+                          </div>
+                        <!-- body end -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="banner-button">Submit Form</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal end -->
+        <!-- contact us button end here -->
 
         <!-- scroll button start here -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
@@ -2501,4 +2599,5 @@
         }
     </script>
 </body>
+
 </html>
